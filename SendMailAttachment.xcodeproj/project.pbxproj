@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCC74DD621B7513800EF09A8 /* SimplePDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DCC74DD521B7513800EF09A8 /* SimplePDF.pdf */; };
 		DCF11F5021B57CEB0024554C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF11F4F21B57CEB0024554C /* AppDelegate.swift */; };
 		DCF11F5221B57CEB0024554C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF11F5121B57CEB0024554C /* ViewController.swift */; };
 		DCF11F5521B57CEB0024554C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF11F5321B57CEB0024554C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DCC74DD521B7513800EF09A8 /* SimplePDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SimplePDF.pdf; sourceTree = "<group>"; };
 		DCF11F4C21B57CEB0024554C /* SendMailAttachment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMailAttachment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF11F4F21B57CEB0024554C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCF11F5121B57CEB0024554C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		DCF11F4E21B57CEB0024554C /* SendMailAttachment */ = {
 			isa = PBXGroup;
 			children = (
+				DCC74DD521B7513800EF09A8 /* SimplePDF.pdf */,
 				DCF11F4F21B57CEB0024554C /* AppDelegate.swift */,
 				DCF11F5121B57CEB0024554C /* ViewController.swift */,
 				DCF11F5321B57CEB0024554C /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCF11F5A21B57CEE0024554C /* LaunchScreen.storyboard in Resources */,
+				DCC74DD621B7513800EF09A8 /* SimplePDF.pdf in Resources */,
 				DCF11F5721B57CEE0024554C /* Assets.xcassets in Resources */,
 				DCF11F5521B57CEB0024554C /* Main.storyboard in Resources */,
 			);
@@ -282,7 +286,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SendMailAttachment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +295,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iostutorialjunction.SendMailAttachment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +305,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SendMailAttachment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iostutorialjunction.SendMailAttachment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
